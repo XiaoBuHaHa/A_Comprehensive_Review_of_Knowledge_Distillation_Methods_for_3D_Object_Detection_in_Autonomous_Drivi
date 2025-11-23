@@ -95,7 +95,7 @@ sparse neural networks are applied on grids for feature extraction. 3D objects a
 
 ### Point-voxel based 3D object detection [[Papers]](Docs/Sensor/LiDAR/mixed_views.md)
 
-![](Figures/_based.png)
+![](Figures/Point_Voxel_fusion_based.png)
 
 Single-stage point-voxel detection framework fuses
 point and voxel features in the backbone network. Two-stage point-voxel detection framework first generates 3D object
