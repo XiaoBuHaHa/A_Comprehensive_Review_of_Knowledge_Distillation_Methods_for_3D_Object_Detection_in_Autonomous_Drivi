@@ -85,7 +85,7 @@ sampling and feature learning, and the prediction head directly estimates 3D bou
 
 ### Grid-based 3D object detection [[Papers]](Docs/Sensor/LiDAR/volumetric_view.md)
 
-![](Figs/grid.JPG)
+![](Figures/Voxel_based.png)
 
 The grid-based approaches rasterize point cloud into
 3 grid representations: voxels, pillars, and bird’s-eye view (BEV) feature maps. 2D convolutional neural networks or 3D
@@ -95,7 +95,7 @@ sparse neural networks are applied on grids for feature extraction. 3D objects a
 
 ### Point-voxel based 3D object detection [[Papers]](Docs/Sensor/LiDAR/mixed_views.md)
 
-![](Figs/pv.JPG)
+![](Figures/_based.png)
 
 Single-stage point-voxel detection framework fuses
 point and voxel features in the backbone network. Two-stage point-voxel detection framework first generates 3D object
