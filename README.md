@@ -113,15 +113,30 @@ A chronological overview of the most prestigious multi-modal 3D object detection
 <a name="1.2.3"></a>
 
 ## What is Knowledge Distillation?
-    - [2.1 Feature distillation](#2.1)
-    - [2.2 Relation distillation](#2.2)
-    - [2.3 Respond distillation](#2.3)
 
-![](Figs/lidarmap.JPG)
+Including characteristic distillation, relational distillation and response distillation
 
-A chronological overview of the most prestigious Camera-based 3D object detection methods. 
+<a name="2"></a>
 
-<a name="1.2"></a>
+### Feature distillation [[Papers]](Docs/Sensor/Camera/monocular.md)
+
+![](Figures/Feature_distillstion.png)
+Feature distillation 
+
+<a name="2.1"></a>
+
+### Relation distillation [[Papers]](Docs/Sensor/Camera/stereo.md)
+
+![](Figures/Relation_distillation.png)
+Relation distillation 
+<a name="2.2"></a>
+
+### Respond distillation
+
+![](Figures/Respond_distillation.png)
+Respond distillation 
+
+<a name="2.3"></a>
 
 
 
