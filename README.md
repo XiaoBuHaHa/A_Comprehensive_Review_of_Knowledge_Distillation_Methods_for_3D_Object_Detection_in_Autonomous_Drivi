@@ -138,6 +138,32 @@ Respond distillation
 
 <a name="2.3"></a>
 
+## LIDAR to LIDAR Knowledge Distillation for 3D Object Detection?
+
+Including Less channels with distillation, Pruning with Distillation and Quantification with Distillation.
+
+<a name="3"></a>
+
+### Less channels with distillation [[Papers]](Docs/Sensor/Camera/monocular.md)
+
+![](Figures/KD_with_less_channles.png)
+Feature distillation 
+
+<a name="3.1"></a>
+
+### Pruning with Distillation [[Papers]](Docs/Sensor/Camera/stereo.md)
+
+![](Figures/prune_with_distill.png)
+Relation distillation 
+<a name="3.2"></a>
+
+### Quantification with Distillation
+
+![](Figures/prune_with_distill.png)
+Respond distillation 
+
+<a name="3.3"></a>
+
 
 
 
