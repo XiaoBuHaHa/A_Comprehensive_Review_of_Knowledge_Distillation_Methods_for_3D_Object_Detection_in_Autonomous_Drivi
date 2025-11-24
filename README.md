@@ -74,7 +74,7 @@ A chronological overview of the most prestigious LiDAR-based 3D object detection
 A general point-based detection framework contains a point-based backbone network and a prediction head. The point-based backbone consists of several blocks for point cloud
 sampling and feature learning, and the prediction head directly estimates 3D bounding boxes from the candidate points. [[Back to content]](#0)
 
-<a name="1.2"></a>
+<a name="1.1.1"></a>
 
 ### Grid-based 3D object detection [[Papers]](Docs/Sensor/LiDAR/volumetric_view.md)
 
@@ -84,7 +84,7 @@ The grid-based approaches rasterize point cloud into
 3 grid representations: voxels, pillars, and bird’s-eye view (BEV) feature maps. 2D convolutional neural networks or 3D
 sparse neural networks are applied on grids for feature extraction. 3D objects are finally predicted from BEV grid cells. [[Back to content]](#0)
 
-<a name="1.3"></a>
+<a name="1.1.2"></a>
 
 ### Point-voxel based 3D object detection [[Papers]](Docs/Sensor/LiDAR/mixed_views.md)
 
@@ -94,7 +94,7 @@ Single-stage point-voxel detection framework fuses
 point and voxel features in the backbone network. Two-stage point-voxel detection framework first generates 3D object
 proposals with a voxel-based 3D detector, and then refines these proposals using keypoints sampled from point cloud. [[Back to content]](#0)
 
-<a name="1.4"></a>
+<a name="1.1.3"></a>
 
 ## Camera-based 3D Object Detection
 
