@@ -108,7 +108,7 @@ A chronological overview of the most prestigious Camera-based 3D object detectio
 
 <a name="1.2.2"></a>
 
-### Multi-view-based 3D object detection [[Papers]](Docs/Sensor/Camera/stereo.md)
+### Multi-view-based 3D object detection [[Papers]](Docs/Sensor/Camera/multi-view.md)
 
 <a name="1.2.3"></a>
 
@@ -120,17 +120,17 @@ A chronological overview of the most prestigious multi-modal 3D object detection
 
 <a name="1.3"></a>
 
-### Early fusion for 3D object detection 
+### Early fusion for 3D object detection [[Papers]](Docs/Sensor/Camera/multi-view.md)
 
 None
 <a name="1.3.1"></a>
 
-### Middle fusion for 3D object detection 
+### Middle fusion for 3D object detection [[Papers]](Docs/Sensor/Camera/multi-view.md)
 
 None
 <a name="1.3.2"></a>
 
-### Late fusion for 3D object detection 
+### Late fusion for 3D object detection [[Papers]](Docs/Sensor/Camera/multi-view.md)
 
 None
 <a name="1.3.3"></a>
