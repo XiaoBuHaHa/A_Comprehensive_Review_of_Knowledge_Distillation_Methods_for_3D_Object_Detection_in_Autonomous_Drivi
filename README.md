@@ -53,27 +53,33 @@ We also provide a paper collection on 3D object detection for autonomous driving
 
 <a name="1"></a>
 
-This is the mainstream 3D object detection paradigm in 3D, mainly including three types. [[Back to content]](#0)
+This is the mainstream 3D object detection paradigm in 3D, mainly including three types. 
+
+
 
 ### Point-based 3D object detection [[Papers]](Docs/Sensor/LiDAR/point_view.md)
 ![](Figs/lidarmap.JPG)
 
-A chronological overview of the most prestigious LiDAR-based 3D object detection methods. [[Back to content]](#0)
+A chronological overview of the most prestigious LiDAR-based 3D object detection methods. 
 
 ![](Figures/Point_based.png)
 
 A general point-based detection framework contains a point-based backbone network and a prediction head. The point-based backbone consists of several blocks for point cloud
-sampling and feature learning, and the prediction head directly estimates 3D bounding boxes from the candidate points. [[Back to content]](#0)
+sampling and feature learning, and the prediction head directly estimates 3D bounding boxes from the candidate points. 
 
 <a name="1.1.1"></a>
 
-### Grid-based 3D object detection [[Papers]](Docs/Sensor/LiDAR/volumetric_view.md)
+
+### Voxel-based 3D object detection [[Papers]](Docs/Sensor/LiDAR/volumetric_view.md)
+![](Figs/lidarmap.JPG)
+
+A chronological overview of the most prestigious Voxel-based 3D object detection methods. 
 
 ![](Figures/Voxel_based.png)
 
 The grid-based approaches rasterize point cloud into
 3 grid representations: voxels, pillars, and bird’s-eye view (BEV) feature maps. 2D convolutional neural networks or 3D
-sparse neural networks are applied on grids for feature extraction. 3D objects are finally predicted from BEV grid cells. [[Back to content]](#0)
+sparse neural networks are applied on grids for feature extraction. 3D objects are finally predicted from BEV grid cells. 
 
 <a name="1.1.2"></a>
 
@@ -83,7 +89,7 @@ sparse neural networks are applied on grids for feature extraction. 3D objects a
 
 Single-stage point-voxel detection framework fuses
 point and voxel features in the backbone network. Two-stage point-voxel detection framework first generates 3D object
-proposals with a voxel-based 3D detector, and then refines these proposals using keypoints sampled from point cloud. [[Back to content]](#0)
+proposals with a voxel-based 3D detector, and then refines these proposals using keypoints sampled from point cloud. 
 
 <a name="1.1.3"></a>
 
@@ -91,7 +97,7 @@ proposals with a voxel-based 3D detector, and then refines these proposals using
 
 ![](Figs/cameramap.JPG)
 
-A chronological overview of the camera-based 3D object detection methods. [[Back to content]](#0)
+A chronological overview of the camera-based 3D object detection methods.
 
 <a name="2.1"></a>
 
@@ -126,8 +132,7 @@ apply a 2D neural network on the coordinate map for detection. [[Back to content
 
 ![](Figs/prior.JPG)
 
-Prior-guided approaches leverage object shape priors, geometric priors, segmentation and temporal constrains to help detect 3D objects. [[Back to content]](#0)
-
+Prior-guided approaches leverage object shape priors, geometric priors, segmentation and temporal constrains to help detect 3D objects.
 <a name="2.4"></a>
 
 ### Stereo-based 3D object detection [[Papers]](Docs/Sensor/Camera/stereo.md)
@@ -147,7 +152,7 @@ for detection. [[Back to content]](#0)
 
 ![](Figs/fusionmap.JPG)
 
-A chronological overview of the most prestigious multi-modal 3D object detection methods. [[Back to content]](#0)
+A chronological overview of the most prestigious multi-modal 3D object detection methods.
 
 <a name="3.1"></a>
 
@@ -161,7 +166,7 @@ knowledge fusion, 2D detection is firstly employed on images to generate 2D boun
 extruded into viewing frustums to select proper point cloud regions for the subsequent LiDAR-based 3D object detection.
 In point-level knowledge fusion, semantic segmentation is firstly applied on images, and then the segmentation results are
 transferred from the image pixels to points and used as an additional feature attached to each point. The augmented point
-cloud is finally passed through a LiDAR detector for 3D object detection. [[Back to content]](#0)
+cloud is finally passed through a LiDAR detector for 3D object detection. 
 
 <a name="3.2"></a>
 
@@ -175,7 +180,7 @@ correspondences are firstly established by camera-to-LiDAR transform, and then w
 are fused with image features through diverse fusion operators. The fusion can be conducted either at the intermediate
 layers or only at the output feature maps. In the proposal generation and refinement stage, 3D object proposals are first
 generated and then projected into the camera and LiDAR views to crop features of different modalities. The multi-view
-features are finally fused to refine the 3D object proposals for detection. [[Back to content]](#0)
+features are finally fused to refine the 3D object proposals for detection. 
 
 <a name="3.3"></a>
 
@@ -185,7 +190,7 @@ features are finally fused to refine the 3D object proposals for detection. [[Ba
 
 Late-fusion based approaches operate on the
 outputs, i.e. 3D and 2D bounding boxes, generated from a LiDAR-based 3D object detector and an image-based 2D object
-detector respectively. 3D boxes and 2D boxes are combined together and fused to obtain the final detection results. [[Back to content]](#0)
+detector respectively. 3D boxes and 2D boxes are combined together and fused to obtain the final detection results.
 
 <a name="4"></a>
 
@@ -193,7 +198,7 @@ detector respectively. 3D boxes and 2D boxes are combined together and fused to 
 
 ![](Figs/temporalmap.JPG)
 
-A chronological overview of the most prestigious temporal 3D object detection methods. [[Back to content]](#0)
+A chronological overview of the most prestigious temporal 3D object detection methods.
 
 <a name="4.1"></a>
 
@@ -205,8 +210,7 @@ A chronological overview of the most prestigious temporal 3D object detection me
 
 In temporal 3D object detection from LiDAR sequences, diverse temporal aggregation modules
 are employed to fuse features and object proposals from
-multi-frame point clouds. [[Back to content]](#0)
-
+multi-frame point clouds. 
 <a name="4.2"></a>
 
 
@@ -215,7 +219,7 @@ multi-frame point clouds. [[Back to content]](#0)
 ![](Figs/stream.JPG)
 
 Detection from streaming data is conducted on each LiDAR
-packet before the scanner produces a complete sweep. [[Back to content]](#0)
+packet before the scanner produces a complete sweep. 
 
 <a name="5"></a>
 
@@ -227,7 +231,7 @@ packet before the scanner produces a complete sweep. [[Back to content]](#0)
 
 ![](Figs/da.JPG)
 
-In real-world applications, 3D object detectors suffer from severe domain gaps across different datasets, sensors, and weather conditions. [[Back to content]](#0)
+In real-world applications, 3D object detectors suffer from severe domain gaps across different datasets, sensors, and weather conditions. 
 
 <a name="5.2"></a>
 
@@ -236,7 +240,7 @@ In real-world applications, 3D object detectors suffer from severe domain gaps a
 ![](Figs/weak.JPG)
 
 Weakly-supervised approaches learn to
-detect 3D objects with weak supervisory signals. [[Back to content]](#0)
+detect 3D objects with weak supervisory signals. 
 
 <a name="5.3"></a>
 
@@ -258,7 +262,7 @@ to further boost the detection performance. [[Back to content]](#0)
 
 Self-supervised approaches first pre-train
 a 3D detector on the unlabeled data in a self-supervised
-manner, and then fine-tune the detector on the labeled data. [[Back to content]](#0)
+manner, and then fine-tune the detector on the labeled data. 
 
 <a name="6"></a>
 
@@ -272,7 +276,7 @@ manner, and then fine-tune the detector on the labeled data. [[Back to content]]
 
 End-to-end autonomous driving aims to integrate all
 tasks in autonomous driving, e.g. perception, prediction, planning, control, mapping, localization, into a unified framework
-and learn these tasks in an end-to-end manner. [[Back to content]](#0)
+and learn these tasks in an end-to-end manner. 
 
 <a name="6.2"></a>
 
