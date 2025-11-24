@@ -55,9 +55,8 @@ We also provide a paper collection on 3D object detection for autonomous driving
 
 This is the mainstream 3D object detection paradigm in 3D, mainly including three types. 
 
-
-
 ### Point-based 3D object detection [[Papers]](Docs/Sensor/LiDAR/point_view.md)
+
 ![](Figs/lidarmap.JPG)
 
 A chronological overview of the most prestigious LiDAR-based 3D object detection methods. 
@@ -69,8 +68,8 @@ sampling and feature learning, and the prediction head directly estimates 3D bou
 
 <a name="1.1.1"></a>
 
-
 ### Voxel-based 3D object detection [[Papers]](Docs/Sensor/LiDAR/volumetric_view.md)
+
 ![](Figs/lidarmap.JPG)
 
 A chronological overview of the most prestigious Voxel-based 3D object detection methods. 
@@ -85,6 +84,10 @@ sparse neural networks are applied on grids for feature extraction. 3D objects a
 
 ### Point-voxel based 3D object detection [[Papers]](Docs/Sensor/LiDAR/mixed_views.md)
 
+![](Figs/lidarmap.JPG)
+
+A chronological overview of the most prestigious Point-Voxel fusion based 3D object detection methods. 
+
 ![](Figures/Point_Voxel_fusion_based.png)
 
 Single-stage point-voxel detection framework fuses
@@ -94,6 +97,10 @@ proposals with a voxel-based 3D detector, and then refines these proposals using
 <a name="1.1.3"></a>
 
 ## Camera-based 3D Object Detection
+
+![](Figs/lidarmap.JPG)
+
+A chronological overview of the most prestigious Camera-based 3D object detection methods. 
 
 ![](Figs/cameramap.JPG)
 
