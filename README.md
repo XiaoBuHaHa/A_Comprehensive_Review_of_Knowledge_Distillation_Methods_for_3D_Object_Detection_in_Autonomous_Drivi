@@ -114,33 +114,33 @@ A chronological overview of the most prestigious multi-modal 3D object detection
 
 <a name="1.2.3"></a>
 
-## What is Knowledge Distillation?
+# What is Knowledge Distillation?
 
 Including characteristic distillation, relational distillation and response distillation
 
 <a name="2"></a>
 
-### Feature distillation [[Papers]](Docs/Sensor/Camera/monocular.md)
+## Feature distillation [[Papers]](Docs/Sensor/Camera/monocular.md)
 
 ![](Figures/Feature_distillstion.png)
 Feature distillation 
 
 <a name="2.1"></a>
 
-### Relation distillation [[Papers]](Docs/Sensor/Camera/stereo.md)
+## Relation distillation [[Papers]](Docs/Sensor/Camera/stereo.md)
 
 ![](Figures/Relation_distillation.png)
 Relation distillation 
 <a name="2.2"></a>
 
-### Respond distillation
+## Respond distillation
 
 ![](Figures/Respond_distillation.png)
 Respond distillation 
 
 <a name="2.3"></a>
 
-# LIDAR to LIDAR Knowledge Distillation for 3D Object Detection?
+# LIDAR to LIDAR Knowledge Distillation for 3D Object Detection
 
 ![](Figs/lidarmap.JPG)
 Including Homogeneous distillation and Heterogeneous distillation.
@@ -181,20 +181,37 @@ Respond distillation
 
 <a name="3.2"></a>
 
+# LIDAR to Camera Knowledge Distillation for 3D Object Detection
+
+![](Figs/lidarmap.JPG)
+<a name="4"></a>
+
+## LIDAR to monocular image for 3D object detection 
+
+None
+<a name="4.1"></a>
+
+## LIDAR to stereo image for 3D object detection 
+
+None
+<a name="4.2"></a>
+
+## LIDAR to multi-view image for 3D object detection 
+
+None
+<a name="4.3"></a>
 
 
+# LIDAR-Based-Multi-Modal to other Modal Knowledge Distillation for 3D Detection
+None
+<a name="5"></a>
 
+## LIDAR-Camera Fusion to LIDAR
 
+None
+<a name="5.1"></a>
 
+## LIDAR-Camera Fusion to Camera
 
-
-
-
-
-### Collaborative 3D object detection [[Papers]](Docs/Applications/cooperative_perception.md)
-
-![](Figs/coopr.JPG)
-
-In collaborative 3D object detection, different
-vehicles can communicate with each other to obtain a more
-reliable detection results. [[Back to content]](#0)
+None
+<a name="5.2"></a>
