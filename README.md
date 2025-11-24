@@ -96,43 +96,6 @@ proposals with a voxel-based 3D detector, and then refines these proposals using
 
 <a name="1.4"></a>
 
-### Range-based 3D object detection [[Papers]](Docs/Sensor/LiDAR/range_view.md)
-
-![](Figs/range.JPG)
-
-The first category of range-based approaches directly predicts
-3D objects from pixels in range images, with standard 2D
-convolutions, or specialized convolutional/graph operators
-for feature extraction. The second category transforms features
-from range view into bird’s-eye view or point-view,
-and then detects 3D objects from the transformed view. [[Back to content]](#0)
-
-<a name="1.5"></a>
-
-### Anchor-based 3D object detection
-
-![](Figs/anchor.JPG)
-
-3D anchor boxes are placed at each BEV grid cell. Those anchors
-that have high IoUs with ground truths are selected as
-positives. The sizes and centers of 3D objects are regressed
-from the positive anchors, and the objects’ heading angles
-are predicted by bin-based classification and regression. [[Back to content]](#0)
-
-<a name="1.6"></a>
-
-### Anchor-free 3D object detection
-
-![](Figs/anchorfree.JPG)
-
-The anchor-free
-learning targets can be assigned to diverse views, including
-the bird’s-eye view, point view, and range view. Object
-parameters are predicted directly from the positive samples. [[Back to content]](#0)
-
-
-<a name="2"></a>
-
 ## Camera-based 3D Object Detection
 
 ![](Figs/cameramap.JPG)
