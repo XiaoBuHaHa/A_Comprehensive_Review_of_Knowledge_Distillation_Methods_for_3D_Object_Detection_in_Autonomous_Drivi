@@ -1,6 +1,6 @@
 # 3D Object Detection for Autonomous Driving: A Comprehensive Survey (2025)
 
-[![arXiv](https://img.shields.io/badge/arXiv-2206.09474-b31b1b.svg)](https://arxiv.org/abs/2206.09474)
+[![arXiv]()
 
 ![overview](Figs/自动驾驶系统_图.png)
 
@@ -8,7 +8,7 @@ This repository is with our [survey paper](https://arxiv.org/abs/2206.09474):
 
 > **Title:** 3D Object Detection for Autonomous Driving: A Comprehensive Survey <br>
 > **Authors:** Changhong Bu, Weiqing Yan<br>
-> arXiv preprint arXiv:2206.09474<br>
+> arXiv preprint arXiv:<br>
 > **Publication:** None <br>
 
 We also provide a paper collection on 3D object detection for autonomous driving at [Awesome 3D Object Detection for Autonomous Driving](Papers.md).
