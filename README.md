@@ -7,7 +7,7 @@
 This repository is with our [survey paper](https://arxiv.org/abs/2206.09474):
 
 > **Title:** 3D Object Detection for Autonomous Driving: A Comprehensive Survey <br>
-> **Authors:** Changhong Bu, Weiqing Yan<br>
+> **Authors:** 
 > arXiv preprint arXiv:<br>
 > **Publication:** None <br>
 
