@@ -1,4 +1,4 @@
-# 3D Object Detection for Autonomous Driving: A Comprehensive Survey (2025)
+# A Comprehensive Review of Knowledge Distillation Methods for 3D Object detection in Autonomous Driving (2025)
  We are constantly updating this project page. If you have any questions, please contact us
  > **![arXiv]():** 
 
